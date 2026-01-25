@@ -142,11 +142,14 @@ def omics_mixing(
 def biology_conservation(
         adata: sc.AnnData, 
         cell_type,
+        start=0,
+        end=11,
+        scale=10,
         num_threads=16
 ):  
     # biology conservation
     with threadpool_limits(limits=num_threads):
-        max_ari, max_res = maxARI(adata, cell_type="cell_type")
+        max_ari, max_res = maxARI(adata, cell_type="cell_type", start=start, end=end, scale=scale)
         sc.tl.leiden(adata, resolution=max_res, flavor="igraph", n_iterations=2)
         nmi_score = NMI(adata.obs['cell_type'].values, adata.obs['leiden'].values)
         # ari_score = metrics.adjusted_rand_score(encoded_original_labels, cluster_labels)
