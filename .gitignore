@@ -1,0 +1,4 @@
+scpmmi/__pycache__/*
+scpmmi/models/__pycache__/*
+scpmmi/tokenizer/__pycache__/*
+scpmmi/utils/__pycache__/*
