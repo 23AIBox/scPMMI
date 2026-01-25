@@ -4,7 +4,6 @@ This is the official codebase for **scPMMI: A Pre-trained Multimodal Model for I
 
 scPMMI is a pre-trained multimodal model for integrative analysis of single-cell multi-omics data without relying on prior highly variable feature selection. The model introduces a cell tokenization strategy that aggregates features within the same genomic region while preserving genomic positional information, thereby enabling the efficient processing of tens of thousands of features per cell. Our results demonstrate that scPMMI learns biologically coherent cell representations by jointly modeling multi-omics data. Through further transfer learning, the model can be readily adapted to achieve superior performance across diverse downstream tasks, including multi-omics integration, cell type annotation, protein abundance prediction, transcriptomic enhancement, and trajectory reconstruction.
 
-![scPMMI](image/Fig1.png)
 
 ## Installation
 
@@ -48,13 +47,6 @@ pip install -e .
 We offer several [notebooks](https://github.com/23AIBox/scPMMI/tree/main/tutorials) for for various downstream tasks as introductory tutorials. _Our latest studies demonstrate scPMMI is competitive on multi-omics integration, protein abundance prediction, cell type annotation, transcriptomic enhancement, and trajectory reconstruction tasks compared to other SOTA methods and pretrained models._
 
 
-## Quick Start
+## Ckeckpoint
 
-### scPMMI Model Ckeckpoints
-
-The checkpoints for the scPMMI model are available via dropbox. We might update our checkpoints from time to time.
-
-
-### Dataset
-
-The dataset used in scPMMI model are available via dropbox.
+The pretraining checkpoints for the scPMMI model are available via [dropbox](https://www.dropbox.com/scl/fo/8lwe2kdvmgrc005m5209i/AK16rrYbW4Py3BxNMXd1icw?rlkey=tbkzbpoh9yw9mmmhxdjubrryb&st=slw892yz&dl=0). We might update our checkpoints from time to time.
