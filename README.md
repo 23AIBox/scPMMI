@@ -49,4 +49,4 @@ We offer several [notebooks](https://github.com/23AIBox/scPMMI/tree/main/tutoria
 
 ## Ckeckpoint
 
-The pretraining checkpoints for the scPMMI model are available via [dropbox](https://www.dropbox.com/scl/fo/8lwe2kdvmgrc005m5209i/AK16rrYbW4Py3BxNMXd1icw?rlkey=tbkzbpoh9yw9mmmhxdjubrryb&st=slw892yz&dl=0). We might update our checkpoints from time to time.
+The pretraining checkpoints for the scPMMI model are available via [dropbox](https://www.dropbox.com/scl/fo/8lwe2kdvmgrc005m5209i/AK16rrYbW4Py3BxNMXd1icw?rlkey=tbkzbpoh9yw9mmmhxdjubrryb&st=slw892yz&dl=0).
