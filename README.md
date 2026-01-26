@@ -1,4 +1,4 @@
-# scMamba
+# scPMMI
 
 This is the official codebase for **scPMMI: A Pre-trained Multimodal Model for Integrative Analysis of Single-Cell Multi-Omics Beyond Highly Variable Feature Selection**.
 
