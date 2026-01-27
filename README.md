@@ -10,7 +10,7 @@ scPMMI is a pre-trained multimodal model for integrative analysis of single-cell
 - Python 3.10.13
 
   - `conda create -n your_env_name python=3.10`
-- Install ``cuda vewrsion 12.8 `` and ``cudnn``
+- Install ``cuda version 12.8 `` and ``cudnn``
 - Install ``pytorch 2.8.0``
 - Requirements: requirements.txt
 
@@ -19,6 +19,8 @@ scPMMI is a pre-trained multimodal model for integrative analysis of single-cell
 
   - `pip install causal_conv1d==1.5.2`
   - `pip install mamba==2.2.5`
+- Install [flash-attention](https://github.com/Dao-AILab/flash-attention)
+  - `pip install flash-attn==2.8.3 --no-build-isolation`
 
 ### Note
 
